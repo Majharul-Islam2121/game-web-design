@@ -130,11 +130,17 @@ margin-top: 20px;
     font-weight: 500;
     padding: 10px 0px;
   }
+  .card-pics{height: 200px;
+    width: 200px;
+    opacity: 0.5;
+}
+.card-pics:hover{border: 1px solid red;}
+
   .card-pic{height: 200px;width: 200px;}
   .card-pic:hover{border:1px solid red; border-radius: 16px;
 }
 .card-img{position: relative;}
-.card-icon{position: absolute;margin-top: -160px;
+.card-icon{position: absolute;margin-top: -180px;
     margin-left: 70px; width: 40px;;}
     .card-images{
         height: 48px;
@@ -143,7 +149,7 @@ margin-top: 20px;
       .card-desc{text-align: center;
         font-family: Work Sans;
         font-size: 15px;
-       color:chartreuse;
+   color: red;
         font-weight: 600;
        width: 100px;
 margin-left: -20px;
@@ -153,6 +159,15 @@ margin-left: -20px;
     justify-content: space-around;
     align-items: center;
 }
+.online-funny{background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;}
 .online-para{color: #534C64;
   
     font-family: Work Sans;
@@ -160,10 +175,27 @@ margin-left: -20px;
   
     font-weight: 400;
   }
-  .play-pic{width: 400px;
-    height: 400px;
+  .play-pic{width: 500px;
+    height: 600px;
     flex-shrink: 0;position: relative;}
 
-.play-img{position: relative;}
-.play-desc{position: absolute;bottom: 150px;}
+.play-img{position: relative;margin-top: 70px;}
+.play-desc{position: absolute;bottom: 100px;left:-190px;
+    width: 130px;
+    height: 130px;
+   
+    border-radius: 8px;
+    border: 10px solid #FFF;
+ }
+.play-tittle{margin-top: 100px;}
+.sticker-container{margin-top: 200px;display: flex;flex-wrap: wrap;
+}
+.sticker-tittle{flex-wrap: nowrap; margin-top: 40px; display: flex;justify-content: center;align-items: center;}
+
+.sticker-desc{width: 30px;
+    justify-content: center;align-items: center;
+    height: 30px;
+    flex-shrink: 0;border-radius: 50px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
 
