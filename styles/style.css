@@ -49,9 +49,10 @@ padding: 10px;}
 
 .game-images:hover{border: 1px solid black;}
 .goat-container{display: flex;
+   margin-left: -90px;
     justify-content: space-around;
     padding: 70px;}
-    .goat-tittle{margin-top: 50px;}
+    .goat-tittle{margin-top: 50px;margin-left: 180px;}
     .goat-h3{color: #0B0223;
        
         font-family: Work Sans;
@@ -80,7 +81,89 @@ padding: 10px;}
         height: 446px;
         flex-shrink: 0;
     margin-top: -70px;}   
-    .sign-container{display: flex;}
+    .sign-container{display: flex;
+        margin-top: -180px;
+        margin-left: 190px;
+        padding: 10px;
+    gap: 10px;
+    }
+    .sign-btn{border-radius: 48px;
+        background-color: #F948B2;
+        padding: 10px;
+        color: white;
+        width: 80px;
+    }
+    .sign-btn2{border-radius: 48px;
+        background: #4EC5F7;
+        width: 100px;
+        padding: 10px;
+        color: white;}
+
+        .online-content{margin-top: 90px;
+        text-align: center;}
+        .online-h4{color: #0B0223;
+         
+            font-family: Work Sans;
+            font-size: 40px;
+         
+            font-weight: 700;
+           }
+.online-para{color: #534C64;
+ 
+    font-family: Work Sans;
+    font-size: 18px;
+margin-top: 20px;
+    font-weight: 400;
+    }
+    .card-container{display: flex;align-items: center;
+        gap: 10px;
+        justify-content: center;margin-left: 80px;margin-top: 30px;
+}
 
 
+
+
+.card-para{color: #534C64;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 0px;
+  }
+  .card-pic{height: 200px;width: 200px;}
+  .card-pic:hover{border:1px solid red; border-radius: 16px;
+}
+.card-img{position: relative;}
+.card-icon{position: absolute;margin-top: -160px;
+    margin-left: 70px; width: 40px;;}
+    .card-images{
+        height: 48px;
+        background-color: white;
+      }
+      .card-desc{text-align: center;
+        font-family: Work Sans;
+        font-size: 15px;
+       color:chartreuse;
+        font-weight: 600;
+       width: 100px;
+margin-left: -20px;
+ }
+
+.play-container{display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.online-para{color: #534C64;
+  
+    font-family: Work Sans;
+    font-size: 18px;
+  
+    font-weight: 400;
+  }
+  .play-pic{width: 400px;
+    height: 400px;
+    flex-shrink: 0;position: relative;}
+
+.play-img{position: relative;}
+.play-desc{position: absolute;bottom: 150px;}
 
