@@ -11,8 +11,11 @@ width: 1320px;
 height: 50px;
 flex-shrink: 0;
 }
-.game-tittle{display: flex;gap: 20px;}
-li{list-style: none;}
+.game-tittle{display: flex;
+    gap: 20px;}
+li{
+    list-style: none;
+}
 ul{
     display: flex;
     gap: 20px;
@@ -39,27 +42,35 @@ flex-shrink: 0;
 height: 20px;
 flex-shrink: 0;
 }
-.game-images{display: flex;
+.game-images{
+    display: flex;
 gap: 15px;
 margin-top: -10px;
 
-background: rgba(11, 2, 35, 0.10);padding: 0px 10px;
-height: auto;width: auto;
-padding: 10px;}
+background: rgba(11, 2, 35, 0.10);
+padding: 0px 10px;
+height: auto;
+width: auto;
+padding: 10px;
+}
 
 .game-images:hover{border: 1px solid black;}
 .goat-container{display: flex;
    margin-left: -90px;
     justify-content: space-around;
     padding: 70px;}
-    .goat-tittle{margin-top: 50px;margin-left: 180px;}
+    .goat-tittle{
+        margin-top: 50px;
+        margin-left: 180px;
+    }
     .goat-h3{color: #0B0223;
        
         font-family: Work Sans;
        font-size: 40px;   
         font-weight: 600;
         text-transform: uppercase;}
-.goat-h1{text-align: center;
+.goat-h1{
+    text-align: center;
     font-family: Work Sans;
     font-size: 90px;
   
@@ -77,11 +88,14 @@ padding: 10px;}
         font-weight: 500;
        }
 
-    .goat-img{width: 400px;
+    .goat-img{
+        width: 400px;
         height: 446px;
         flex-shrink: 0;
-    margin-top: -70px;}   
-    .sign-container{display: flex;
+    margin-top: -70px;
+}   
+    .sign-container{
+        display: flex;
         margin-top: -180px;
         margin-left: 190px;
         padding: 10px;
@@ -108,39 +122,56 @@ padding: 10px;}
          
             font-weight: 700;
            }
-.online-para{color: #534C64;
+.online-para{
+    color: #534C64;
  
     font-family: Work Sans;
     font-size: 18px;
 margin-top: 20px;
     font-weight: 400;
     }
-    .card-container{display: flex;align-items: center;
+    .card-container{display: flex;
+        align-items: center;
         gap: 10px;
-        justify-content: center;margin-left: 80px;margin-top: 30px;
+        justify-content: center;
+        margin-left: 80px;
+        margin-top: 30px;
 }
 
 
 
 
-.card-para{color: #534C64;
+.card-para{
+    color: #534C64;
     font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     padding: 10px 0px;
   }
-  .card-pics{height: 200px;
+  .card-pics{
+    height: 200px;
     width: 200px;
     
 }
-.card-pics:hover{border: 1px solid red;}
+.card-pics:hover{
+    border: 1px solid red;
+}
 
-  .card-pic{height: 200px;width: 200px;}
-  .card-pic:hover{opacity: 0.5; border:1px solid red; border-radius: 16px;
-}.card-img i:hover{opacity: 1;color: #FFF;}
-i{position: absolute;top: 60px;left:80px ;font-size: 30px;opacity: 0;}
-.card-img .watch-now:hover{background-image: url("https://cdn-icons-png.flaticon.com/128/0/375.png");opacity: 2;
+  .card-pic{height: 200px;
+    width: 200px;
+}
+  .card-pic:hover{opacity: 0.5;
+     border:1px solid red;
+      border-radius: 16px;
+}.card-img i:hover{
+    opacity: 1;color: #FFF;}
+i{position: absolute;
+    top: 60px;left:80px ;
+    font-size: 30px;opacity: 0;
+}
+.card-img .watch-now:hover{background-image: url("https://cdn-icons-png.flaticon.com/128/0/375.png");
+    opacity: 2;
    }
     .card-img{opacity: 1;
         height: 48px;
@@ -151,8 +182,14 @@ i{position: absolute;top: 60px;left:80px ;font-size: 30px;opacity: 0;}
         font-size: 20px;
         font-style: normal;
         font-weight: 600;
-        line-height: normal; opacity: 0; position: absolute;top: 80px;right: 60px;color:hotpink;}
-      .card-desc{text-align: center;
+        line-height: normal;
+         opacity: 0; 
+         position: absolute;
+         top: 80px;
+         right: 60px;
+         color:hotpink;}
+      .card-desc{
+        text-align: center;
         font-family: Work Sans;
         font-size: 15px;
    color: red;
@@ -163,7 +200,8 @@ margin-left: -20px;
 
 .play-container{display: flex;
     justify-content: space-around;
-    align-items: center;margin-top: 200px;
+    align-items: center;
+    margin-top: 200px;
 }
 .online-funny{background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -185,8 +223,11 @@ margin-left: -20px;
     height: 600px;
     flex-shrink: 0;position: relative;}
 
-.play-img{position: relative;margin-top: 70px;}
-.play-desc{position: absolute;bottom: 100px;left:-190px;
+.play-img{position: relative;
+    margin-top: 70px;}
+.play-desc{position: absolute;
+    bottom: 100px;
+    left:-190px;
     width: 130px;
     height: 130px;
    
@@ -194,26 +235,47 @@ margin-left: -20px;
     border: 10px solid #FFF;
  }
 .play-tittle{margin-top: 100px;}
-.sticker-container{ margin-top: 200px;display: flex;flex-wrap: wrap;
+.sticker-container{ margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
 }
-.sticker-tittle{background-color: #FFF;border-radius: 10px;
-    box-shadow: 1px 1px 1px ; flex-wrap: nowrap; margin-top: 40px; display: flex;justify-content: center;align-items: center;}
+.sticker-tittle{background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px ;
+     flex-wrap: nowrap; 
+     margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;}
 .sticker-tittle:hover{border: 1px solid red;
     border-radius: 18px;
     color: red;}
-.sticker-desc{width: 30px;margin: 0px 20px;
-    justify-content: center;align-items: center;
+.sticker-desc{
+    width: 30px;
+    margin: 0px 20px;
+    justify-content: center;
+    align-items: center;
     height: 30px;
     flex-shrink: 0;border-radius: 50px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
-.action-game{display: flex;justify-content: center;gap: 10px; align-items: center;margin-left: 150px;margin-right: 20px;}
+.action-game{display: flex;
+    justify-content: center;
+    gap: 10px;
+     align-items: center;
+     margin-left: 150px;
+     margin-right: 20px;}
 
-.action-gamer{display: flex;justify-content: center;width: 100%;gap: 10px;}
+.action-gamer{display: flex;
+    justify-content: center;
+    width: 100%;gap: 10px;}
 .sticker-btn{width: 100%;}
 footer{ background: #0B0223;
 padding: 50px;margin-top: 40px;}
-.footer-container{ display: flex;margin-top: 60px;justify-content: center;align-items: center;
+.footer-container{ display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
    gap: 30px;}
 
 .footer-h4{width: 60px;
@@ -228,7 +290,8 @@ font-weight: 700;
    .footer-img{width: 86.041px;
     height: 40px;
     }
-    .web-container{display: flex;justify-content: center;
+    .web-container{display: flex;
+        justify-content: center;
     gap: 20px;}
 
 
@@ -280,15 +343,21 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 height: auto;width: auto;
 }
    
-ul{flex-direction: column;justify-content: center;margin-left: 100px;}
+ul{flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;}
 
 .game-icon{  margin-top: 0px;
     width: 40px;
 height: 40px;
 flex-shrink: 0;
-margin-left: 110px;margin-top: 40px;margin-bottom: 20px;
+margin-left: 110px;
+margin-top: 40px;margin-bottom: 20px;
 
-}.game-tittle{padding: 10px; flex-direction: column; gap: 20px;margin-left: 40px;}
+}.game-tittle{padding: 10px;
+     flex-direction: column;
+      gap: 20px;
+      margin-left: 40px;}
 .game-h2{text-align: center;
     font-family: Work Sans;
     font-size: 20px;
@@ -299,7 +368,8 @@ margin-left: 110px;margin-top: 40px;margin-bottom: 20px;
          justify-content: space-around;
          padding: 0px;}
          .game-nav{margin-left: 40px;}
-         .game-images{margin-left:100px;width: 50%;}
+         .game-images{margin-left:100px;
+            width: 50%;}
          .goat-h1{text-align: center;
             font-family: Work Sans;
             font-size: 30px;
@@ -307,30 +377,51 @@ margin-left: 110px;margin-top: 40px;margin-bottom: 20px;
             font-weight: 800;
             margin-top: 30px;}
 
-.goat-h3{font-size: 20px;margin-left: 120px;}
-.goat-para{margin-left: auto;text-align: center;margin-top: 20px;margin-bottom: 20px;}
+.goat-h3{font-size: 20px;
+    margin-left: 120px;}
+.goat-para{margin-left: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;}
 .goat-img{width: 311px;
     height: 446px;
     flex-shrink: 0;
 margin-left: 30px;
 margin-top: 40px;}
-.sign-tittle{margin-top: -330px;margin-right: 0px;text-align: center;}
-.sign-container{padding: auto;}
-.online-content{width: 50%;margin: auto; margin-top: 90px;
+.sign-tittle{margin-top: -330px;
+    margin-right: 0px;
     text-align: center;}
-    .online-h4{font-size: 16px;margin-top: 200px;padding: 5px;}
-    .online-funny{font-size: 15px;}
-    .online-para{font-size: 9px;}
-    .card-container{flex-direction: column;gap: 250px;margin-right: 70px;}
-.play-container{flex-direction: column;margin-top: -80px;}
+.sign-container{padding: auto;}
+.online-content{width: 50%;
+    margin: auto; margin-top: 90px;
+    text-align: center;}
+    .online-h4{font-size: 16px;
+        margin-top: 200px;
+        padding: 5px;}
+    .online-funny{
+        font-size: 15px;}
+    .online-para{
+        font-size: 9px;}
+    .card-container{flex-direction: column;
+        gap: 250px;
+        margin-right: 70px;}
+.play-container{flex-direction: column;
+    margin-top: -80px;}
 .online-h4{font-size: 40px;}
-.online-para{font-size: 15px;text-align: start;width: 250px;}
-.play-pic{height: 300px;width: 300px;}
-.play-post{height: 150px;width: 150px;margin-top: 100px;margin-left:120px;}
+.online-para{font-size: 15px;text-align: start;
+    width: 250px;}
+.play-pic{height: 300px;
+    width: 300px;}
+.play-post{height: 150px;
+    width: 150px;
+    margin-top: 100px;
+    margin-left:120px;}
 
 .action-game{flex-direction: column;}
 
-.sticker-desc{display: grid;grid-template-columns: repeat(5,1fr);}
+.sticker-desc{display: grid;
+    grid-template-columns: repeat(5,1fr);}
 .action-gamer{flex-direction: column;}
-.web-container{flex-direction: column;margin-top: 100px;}
+.web-container{flex-direction: column;
+    margin-top: 100px;}
 }
