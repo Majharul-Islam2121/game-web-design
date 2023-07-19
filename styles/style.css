@@ -271,4 +271,19 @@ font-weight: 500;
     font-weight: 500;
    }
 
-
+   @media screen and (max-width:590px) {.container {padding: 0px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+width: auto;
+height: autov;
+flex-shrink: 0;}.game-tittle{flex-direction: column;gap: 0px;}
+    
+   }.card-container{flex-direction: column;
+    align-items: center;
+    gap:220px;
+    justify-content: center;margin-left: 0px;margin-top: 80px;
+}
+}
