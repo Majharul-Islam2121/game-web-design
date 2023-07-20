@@ -212,8 +212,8 @@ flex-direction: column;
  }
 .play-tittle{margin-top: 70px;}
 .sticker-container{ margin-top: 200px;
-    display: flex;
-    flex-wrap: wrap;
+   display: grid;grid-template-columns: repeat(5,1fr);
+    
 }
 .sticker-tittle{background-color: #FFF;
     border-radius: 10px;
@@ -235,7 +235,7 @@ flex-direction: column;
     flex-shrink: 0;border-radius: 50px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
-.action-game{display: flex;
+.action-game{display:grid;grid-template-columns: repeat(5,1fr);
     justify-content: center;
     gap: 10px;
      align-items: center;
@@ -310,7 +310,7 @@ font-weight: 500;
     font-weight: 500;
    }
 
-@media screen and (max-width:590px) {.container{padding: 0px;
+@media screen and (max-width:576px) {.container{padding: 0px;
    flex-direction: column;
     justify-content: center;
     gap: 0px;
@@ -367,7 +367,7 @@ margin-top: 40px;}
 .sign-tittle{margin-top: -330px;
     margin-right: 0px;
     text-align: center;}
-.sign-container{padding: auto;}
+.sign-container{padding: auto;margin-left: 140px;}
 .online-content{width: 50%;
     margin: auto; margin-top: 90px;
     text-align: center;}
@@ -384,7 +384,7 @@ margin-top: 40px;}
         .card-para{margin-left: 60px;font-size: 17px;}
         .card-content{flex-direction: column;height:300px;width: 250px;}
 .play-container{flex-direction: column;
-    margin-top: -80px;}
+    margin-top: -150px;}
 .online-h4{font-size: 40px;}
 .online-para{font-size: 15px;text-align: start;
     width: 250px;}
@@ -392,13 +392,19 @@ margin-top: 40px;}
 .play-post{height: 150px;
     width: 150px;margin-top: 100px;
     margin-left:120px;}
-.sticker-container{display: flex;flex-wrap: wrap;}
-.action-game{display: flex;flex-wrap: wrap;}
+.sticker-container{display: flex;flex-wrap: wrap;width: 100%;}
+.action-game{display: grid;grid-template-columns: repeat(3,1fr);}
 
 .sticker-desc{display: grid;
-    grid-template-columns: repeat(5,1fr);}
+    grid-template-columns: repeat(3,1fr);margin-left: -40px;}
 .action-gamer{display: flex;flex-wrap: wrap;}
 .web-container{display: grid;grid-template-columns: repeat(2,1fr);
     margin-top: 100px;}
+   
+   
     .policy-container{grid-template-columns: repeat(2,1fr);}
+footer{margin-left: 60px;}
+
+
 }
+
