@@ -7,8 +7,7 @@ padding: 0px;}
     gap: 30px;
     background: #FFF;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-width: 1320px;
-height: 50px;
+
 flex-shrink: 0;
 }
 .game-tittle{display: flex;
@@ -212,10 +211,12 @@ flex-direction: column;
  }
 .play-tittle{margin-top: 70px;}
 .sticker-container{ margin-top: 200px;
+    width: 100%;
    display: grid;grid-template-columns: repeat(5,1fr);
     
 }
-.sticker-tittle{background-color: #FFF;
+.sticker-tittle{background-color: #FFF;width: 100%;
+    margin-left: 30px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px ;
      flex-wrap: nowrap; 
@@ -247,7 +248,7 @@ flex-direction: column;
     width: 100%;gap: 10px;}
 .sticker-btn{width: 100%;}
 footer{ background: #0B0223;
-padding: 50px;margin-top: 40px;}
+padding: 30px;margin-top: 40px;}
 .footer-container{ display: flex;
     margin-top: 60px;
     justify-content: center;
@@ -393,7 +394,7 @@ margin-top: 40px;}
     width: 150px;margin-top: 100px;
     margin-left:120px;}
 .sticker-container{display: flex;flex-wrap: wrap;width: 100%;}
-.action-game{display: grid;grid-template-columns: repeat(3,1fr);}
+.action-game{margin-left: -20px; display: grid;grid-template-columns: repeat(3,1fr);}
 
 .sticker-desc{display: grid;
     grid-template-columns: repeat(3,1fr);margin-left: -40px;}
