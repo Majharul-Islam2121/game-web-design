@@ -127,81 +127,57 @@ padding: 10px;
  
     font-family: Work Sans;
     font-size: 18px;
-margin-top: 20px;
+margin-top: 30px;
     font-weight: 400;
     }
-    .card-container{display: flex;
-        align-items: center;
-        gap: 10px;
+
+    .card-container{
+        display: flex;
         justify-content: center;
-        margin-left: 80px;
-        margin-top: 30px;
+        gap: 10px;margin-top: 20px;
+    }
+    .card-pic{width: 250px;
+    height: 300px;}
+    .watch-now{font-size: 20px;
+    font-weight: 300;
+    color: hotpink;}
+    .card-content i{font-size: 30px;color: white;}
+.card-img{position: relative;margin-left: 40px;
 }
-
-
-
-
-.card-para{
-    color: #534C64;
-    font-family: Work Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    padding: 10px 0px;
-  }
-  .card-pics{
-    height: 200px;
-    width: 200px;
+.card-para{margin-left: 30px;color: #534C64;
     
+    font-family: Work Sans;
+    font-size: 20px;
+    
+    font-weight: 500;
+   
 }
-.card-pics:hover{
-    border: 1px solid red;
+.card-content{
+    position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background: #2f26466b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+flex-direction: column;
 }
-
-  .card-pic{height: 200px;
-    width: 200px;
+.card-img:hover .card-content{
+    visibility: visible;
+    opacity: 1;
 }
-  .card-pic:hover{opacity: 0.5;
-     border:1px solid red;
-      border-radius: 16px;
-}.card-img i:hover{
-    opacity: 1;color: #FFF;}
-i{position: absolute;
-    top: 60px;left:80px ;
-    font-size: 30px;opacity: 0;
-}
-.card-img .watch-now:hover{background-image: url("https://cdn-icons-png.flaticon.com/128/0/375.png");
-    opacity: 2;
-   }
-    .card-img{opacity: 1;
-        height: 48px;
-        background-color: white;position: relative;
-      }
-      .watch-now {text-align: center;margin-top: 10px;
-        font-family: Work Sans;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-         opacity: 0; 
-         position: absolute;
-         top: 80px;
-         right: 60px;
-         color:hotpink;}
-      .card-desc{
-        text-align: center;
-        font-family: Work Sans;
-        font-size: 15px;
-   color: red;
-        font-weight: 600;
-       width: 100px;
-margin-left: -20px;
- }
 
 .play-container{display: flex;
+
     justify-content: space-around;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 20px;
 }
 .online-funny{background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -234,7 +210,7 @@ margin-left: -20px;
     border-radius: 8px;
     border: 10px solid #FFF;
  }
-.play-tittle{margin-top: 100px;}
+.play-tittle{margin-top: 70px;}
 .sticker-container{ margin-top: 200px;
     display: flex;
     flex-wrap: wrap;
@@ -290,9 +266,9 @@ font-weight: 700;
    .footer-img{width: 86.041px;
     height: 40px;
     }
-    .web-container{display: flex;
-        justify-content: center;
-    gap: 20px;}
+    .web-container{display: grid;grid-template-columns: repeat(6,1fr);
+       margin-top:20px ;
+    gap: 10px;}
 
 
 
@@ -316,7 +292,7 @@ gap: 50px;}
     flex-shrink: 0;
 margin-top: 40px;}
 
-.policy-container{display: flex;
+.policy-container{display: grid;grid-template-columns: repeat(4,1fr);
 justify-content: center;gap: 50px;
 color: rgba(255, 255, 255, 0.60);
 margin-top: 60px;
@@ -327,7 +303,7 @@ font-weight: 500;
 
 }
 .policy-btn{color: rgba(255, 255, 255, 0.60);
- margin-top: 30px;
+ margin-top: 50px;
     font-family: Work Sans;
     font-size: 16px;
  text-align: center;
@@ -402,26 +378,27 @@ margin-top: 40px;}
         font-size: 15px;}
     .online-para{
         font-size: 9px;}
-    .card-container{flex-direction: column;
-        gap: 250px;
+    .card-container{flex-direction: column;margin-left: 60px;
+        gap: 25px;
         margin-right: 70px;}
+        .card-para{margin-left: 60px;font-size: 17px;}
+        .card-content{flex-direction: column;height:300px;width: 250px;}
 .play-container{flex-direction: column;
     margin-top: -80px;}
 .online-h4{font-size: 40px;}
 .online-para{font-size: 15px;text-align: start;
     width: 250px;}
-.play-pic{height: 300px;
-    width: 300px;}
+.play-pic{height: 300px;width: 300px;}
 .play-post{height: 150px;
-    width: 150px;
-    margin-top: 100px;
+    width: 150px;margin-top: 100px;
     margin-left:120px;}
-
-.action-game{flex-direction: column;}
+.sticker-container{display: flex;flex-wrap: wrap;}
+.action-game{display: flex;flex-wrap: wrap;}
 
 .sticker-desc{display: grid;
     grid-template-columns: repeat(5,1fr);}
-.action-gamer{flex-direction: column;}
-.web-container{flex-direction: column;
+.action-gamer{display: flex;flex-wrap: wrap;}
+.web-container{display: grid;grid-template-columns: repeat(2,1fr);
     margin-top: 100px;}
+    .policy-container{grid-template-columns: repeat(2,1fr);}
 }
